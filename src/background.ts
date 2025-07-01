@@ -33,6 +33,3 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 });
 
-chrome.action.onClicked.addListener((tab) => {
-  console.log('Extension icon clicked for tab:', tab.id);
-});
